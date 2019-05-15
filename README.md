@@ -7,7 +7,7 @@ Use this repository for when you want to start a new modular JavaScript applicat
 1. Clone this repository.
 2. `cd src/lib`
 3. `npm install`
-4. `npm start`
+4. run `grunt`
 
 The `npm start` command will run grunt for you.
 
