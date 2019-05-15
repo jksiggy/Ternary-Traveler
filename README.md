@@ -9,8 +9,6 @@ Use this repository for when you want to start a new modular JavaScript applicat
 3. `npm install`
 4. run `grunt`
 
-The `npm start` command will run grunt for you.
-
 The web server will be started, and the JavaScript code in the `src/scripts` directory will be compiled into `public/bundle.js`.
 
 1. Open Chome and make sure your developer tools are open.
