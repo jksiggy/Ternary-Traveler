@@ -1,7 +1,12 @@
-import APIManager from "./dbCalls";
+import domDisplay from "./domDisplay";
+import addInterest from "./interestFom";
 
-//testing import of dbcalls and calling getAllPlaces
-APIManager.getAllPlaces()
-    .then((places) => {
-        console.log("Oh the places you will go:", places);
-    });
+
+console.log("helloo");
+domDisplay();
+
+document.getElementById("btn_add_interest").addEventListener("click", event => {
+    event.preventDefault()
+    console.log("event", event);
+    addInterest()
+})

@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Browserify Starter</title>
 </head>
-<body>
-    <h1>Hello World</h1>
 
-    <script src="bundle.js"></script>
+<body>
+    <h1>The Ternary Traveler</h1>
+
+    <div id="overlay_interest">
+        <div id="wrapper_interest_form">
+            <h2>Point of Interest</h2>
+            <form id="container_interest_form">
+                <input type="text" id="form_interest" placeholder="Name of Interest">
+                <textarea id="interest_disc" placeholder="Interest Discription"></textarea>
+                    <select id="country">
+                        <option value="1">Italy</option>
+                        <option value="2">Switzerland</option>
+                        <option value="3">France</option>
+                    </select>
+                <input type="number" min="0.00" Max="100000000.00" step="1" id="form_price"
+                    required="required"></input>
+                <input type="submit" id="btn_add_interest" value="Add Interest">
+            </form>
+        </div>
+    </div>
+    <div id="interest_display"></div>
+    <div id="place_holder"></div>
+    <script src="./bundle.js"></script>
 </body>
+
 </html>
